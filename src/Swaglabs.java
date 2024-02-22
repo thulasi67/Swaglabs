@@ -10,7 +10,7 @@ import org.testng.Assert;
 public class Swaglabs {
 	public static void main(String[] args) throws InterruptedException{
 		// TODO Auto-generated method stub
-		// pathing the webdriver from the local machine in order to the better synchroniztion
+		// pathing the webdriver from the local machine for the better synchroniztion
 		System.setProperty("webdriver.chrome.chromedriver","/Users/thulasiramkakarla/Downloads/chromedriver" ); 
 		WebDriver driver  = new ChromeDriver(); // Invokes the Chrome Broswer from the erbDriver Interface
 	
